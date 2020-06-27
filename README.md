@@ -1,5 +1,7 @@
 # vid
 
+vid is a visual editor
+
 ## Name
 
 `vid` is derived from the shortest unambiguous abbreviation for the missing pdb command "visual"
@@ -17,7 +19,7 @@ So, if you are paused at line 15 you can edit line 16, then step into line 16.
 
 
 
-###`vim` like
+### `vim` like
  
 If you know `vim` you won't be surprised by the directions that the `j`, `k`, `w`, `b`, ... keys move in vid.
 

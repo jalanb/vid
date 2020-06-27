@@ -55,6 +55,14 @@ coverage.xml
 *.mo
 *.pot
 
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
 # Django stuff:
 *.log
 local_settings.py
@@ -68,8 +76,20 @@ instance/
 # Scrapy stuff:
 .scrapy
 
+# Packaged stuff
+*.gz
+*.zip
+
 # Sphinx documentation
 docs/_build/
+
+# Other filesystems
+.svn
+.DS_Store
+
+# Editors
+.*.swp
+*~
 
 # PyBuilder
 target/
@@ -102,6 +122,8 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.cd
+.pysyte
 .env
 .venv
 env/
